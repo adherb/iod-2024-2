@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>page title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <style>
+        body {
+            background-color: black;
+            color:
+                white;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            color: red;
+        }
+
+        .title {
+            font-family: sans-serif;
+            color: darkmagenta;
+        }
+    </style> -->
+</head>
+
+<body>
+    <header>
+        <h1 id="header">Header</h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+            </ul>
+        </nav>
+        <section>
+            <!-- <h2 class="title">Article heading</h2>
+            <p id="demo">Paragraph...</p>
+            <a href="https://www.google.com/">More information...</a> -->
+            <img width="300" height="200"
+                src="https://th-thumbnailer.cdn-si-edu.com/pImJPOHlQAj-DscZe1VLnXfOfeQ=/1072x720/filters:no_upscale():focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/55/95/55958815-3a8a-4032-ac7a-ff8c8ec8898a/gettyimages-1067956982.jpg"
+                alt="A grey Bengal cat laying down" />
+            <div>
+                <label for="address">Address:</label><br />
+                <input type="text" name="address" id="address" value="Gold Coast" /><br />
+                <button onclick="submitOrder()">Order Now!</button>
+            </div>
+        </section>
+        <aside id="aside">
+            <h2 class="title">Related</h2>
+            <ul>
+                <li><a href="#">Article 1</a></li>
+                <li><a href="#">Article 2</a></li>
+            </ul>
+        </aside>
+    </section>
+    <footer>
+        <p>@copyright 2050 by nobody. all rights reversed</p>
+    </footer>
+    <script>
+        function submitOrder() {
+            alert("Your order will be shipped soon!")
+        }
+        document.getElementById("header").innerText =
+            'Hello JavaScript';
+        document.getElementById("aside").style.backgroundColor =
+            'green';
+    </script>
+</body>
+
+</html>
