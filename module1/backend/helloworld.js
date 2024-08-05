@@ -84,20 +84,60 @@
 // const helloText = "say Hello instead"; // error: Identifier 'helloText' has
 
 // objects in javascript contain keys (or properties) with corresponding values
-const user = {
-  first_name: "Adam",
-  last_name: "Herbert",
-  age: 36,
-  followers: 987,
-};
+// const user = {
+//   first_name: "Adam",
+//   last_name: "Herbert",
+//   age: 36,
+//   followers: 987,
+// };
 
-console.log(user.first_name);
-console.log(user.age);
+// console.log(user.first_name);
+// console.log(user.age);
 
-console.log(user["last_name"]);
+// console.log(user["last_name"]);
 
-user.followers = 1987;
-console.log(user.followers);
+// user.followers = 1987;
+// console.log(user.followers);
 
-user.location = "Gold Coast";
-console.log(user.location);
+// user.location = "Gold Coast";
+// console.log(user.location);
+
+const books = [
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    year: 1960,
+    genre: "Fiction",
+    ISBN: "978-0-06-112008-4",
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    year: 1949,
+    genre: "Dystopian",
+    ISBN: "978-0-452-28423-4",
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    year: 1813,
+    genre: "Romance",
+    ISBN: "978-0-14-143951-8",
+  },
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    year: 1925,
+    genre: "Tragedy",
+    ISBN: "978-0-7432-7356-5",
+  },
+  {
+    title: "Moby-Dick",
+    author: "Herman Melville",
+    year: 1851,
+    genre: "Adventure",
+    ISBN: "978-0-14-243724-7",
+  },
+];
+
+console.log(books[2].title);
